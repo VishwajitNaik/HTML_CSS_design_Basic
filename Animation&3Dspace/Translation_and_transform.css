@@ -1,0 +1,81 @@
+.div1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: aquamarine;
+    /* Rotate */
+    /* transform: rotate(120deg); */
+    /* transform: rotate(-120deg); */
+    /* transform: rotateX(120deg); */
+    /* transform: rotateY(120deg); */
+
+/* Scale */
+  /*  transform: scale(0.2, 1.2);*/ /*Vertical scale*/
+  /*  transform: scale(1.2, 0.2);  */ /*Horizantal scale*/
+
+/* Translate */
+    /* transform: translate(100px);
+    transform: translate(10%, 100px); */
+
+/* transition: all ease-in-out 2s; */
+transition: 1s steps(6, end);
+
+}
+
+.div1:hover{
+    /* height: 400px;
+    width: 300px; */
+    /* transform: rotate(360deg) scale(0.2) translate(50px);
+    border-radius: 50%; */
+    transform: translate(150px,20%);
+    /* transform: scale(0.2, 1.2); */
+    /* transform: translate(100px); */
+    /* transform: scale(1.5) translate(150px); */
+}
+
+
+/* 
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+
+.div3{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    transform: translateY(100px);
+} */
+
+.div4{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: aquamarine;
+    animation: changeshape 1s ease-in-out 4 alternate;
+}
+
+@keyframes changeshape {
+    0%{
+        border-radius: 50%;
+        transform: translateY(0px);
+    }
+    25%{
+        border-radius: 50%;
+        transform: translateY(100px);
+    }
+    50%{
+        border-radius: 50%;
+        transform: translateY(200px);
+    }
+    100%{
+        border-radius: 50%;
+        transform: translateY(300px);
+
+    }
+}

@@ -1,0 +1,87 @@
+.container{
+    /* height: auto; */
+    height: 100vh;
+    width: 75vw;
+    background-color: lightgray;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    
+    /* wrap */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* Flex justify */
+
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    
+    /* align=iteem */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    align-items: baseline;
+}
+
+.container div{
+    height: 200px;
+    width: 200px;
+}
+
+
+/* Wrap property */
+
+/* .div1{
+    background-color: cyan;
+    flex-grow: 4;
+}
+
+.div2{
+    background-color: red;
+    flex-grow: 1;
+}
+.div3{
+    background-color: gray;
+    flex-grow: 1;
+}
+.div4{
+    background-color: orange;
+}
+
+.div5{
+    background-color: brown;
+} */
+
+/*  */
+
+.div1{
+    background-color: cyan;
+    /* order: 1; */
+    margin: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.div2{
+    background-color: red;
+    margin: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.div3{
+    background-color: gray;
+    margin: 40px;
+    border-radius: 50%;
+    text-align: center;
+    /* order: 5; */
+}
+.div4{
+    background-color: brown;
+    /* order: -1; */
+}
